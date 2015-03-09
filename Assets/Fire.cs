@@ -6,7 +6,7 @@ public class Fire : MonoBehaviour {
 	GameObject VectorParent;
 	// Use this for initialization
 	void Start () {
-
+//commit Test
 		gameObject.transform.rigidbody2D.AddForce(Vector2.up * Random.Range(30000,40000)); // 正規化したベクトル * スピード
 
 	}
